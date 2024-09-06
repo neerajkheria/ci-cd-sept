@@ -9,3 +9,4 @@ chardet
 click
 Flask
 Jinja2
+pytest
