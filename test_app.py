@@ -9,4 +9,4 @@ def client():
 
 def test_home(client):
   rv = client.get('/')
-  assert rv.data == b'Welcome to CI/CD Pipeline using Python! September 06, 2024'
+  assert rv.data == b'Welcome to New CI/CD Pipeline using Python! September 06, 2024'
